@@ -27,6 +27,11 @@ Both models act on screening mammography exams with four standard views (L-CC, R
 This repository is licensed under the terms of the GNU AGPLv3 license.
 
 ## How to run the code
+run 'pip install -r requirements.txt'
+
+then
+
+run 'pip install -e .' from the root of the project directory, to install the libraries required.
 
 `run.sh` will automatically run the entire pipeline and save the prediction results in csv. 
 
